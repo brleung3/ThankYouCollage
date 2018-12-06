@@ -10,18 +10,22 @@ void setup() {
 
 void draw() {
   background(#8FF0ED);
-  //face
+ 
+ //face
   img = loadImage("smiley face open mouth.gif");
   image(img,X,40,width*0.5,height*0.5);
   
+ //face movement
     X=X+bounce;
   if(X>width-150 || X<100)
   { bounce=bounce*(-1);  }
+  
   //cookie
   img = loadImage("cookie.png");
   image(img,160,mouseY,width*0.5,height*0.4); }
 void mouseMoved() {
-   //thankyoutext
+  
+  //thankyoutext
   fill(random(255),random(255),random(255));
   textAlign(CENTER);
   textSize(40);
