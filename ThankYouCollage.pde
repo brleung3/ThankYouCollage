@@ -20,16 +20,16 @@ void draw() {
   if(X>width-150 || X<100)
   { bounce=bounce*(-1);  }
   
+  //cookie
+  img = loadImage("cookie.png");
+  image(img,160,mouseY,width*0.5,height*0.4); }
   
-  //thankyoutext
+    //thankyoutext
   void mouseMoved() {
   fill(random(255),random(255),random(255));
   textAlign(CENTER);
   textSize(40);
   text("THANK YOU!",300,520);  }
 
-  //cookie
-  img = loadImage("cookie.png");
-  image(img,160,mouseY,width*0.5,height*0.4); }
 
   
