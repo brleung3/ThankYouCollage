@@ -22,6 +22,7 @@ void draw() {
   
   
   //thankyoutext
+  void mouseMoved() {
   fill(random(255),random(255),random(255));
   textAlign(CENTER);
   textSize(40);
@@ -30,5 +31,5 @@ void draw() {
   //cookie
   img = loadImage("cookie.png");
   image(img,160,mouseY,width*0.5,height*0.4); }
-void mouseMoved() {
+
   
