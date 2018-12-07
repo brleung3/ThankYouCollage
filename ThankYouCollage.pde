@@ -1,6 +1,4 @@
 //add thank you code here
-/* @pjs preload="smiley face open mouth.gif"; */
-/* @pjs preload="cookie.png"; */
 int X=100;
 int bounce=1;
 PImage img;
