@@ -2,6 +2,7 @@
 int X=100;
 int bounce=1;
 PImage img;
+PImage img2;
 
 void setup() {
   size(600,600);
@@ -22,7 +23,7 @@ void draw() {
   
   //cookie
   img = loadImage("cookie.png");
-  image(img,160,mouseY,width*0.5,height*0.4); }
+  image(img2,160,mouseY,width*0.5,height*0.4); }
   
     //thankyoutext
   void mouseMoved() {
